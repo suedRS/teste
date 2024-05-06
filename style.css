@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+body {
+  background-color: rgba(223, 222, 222, 0.87);
+  background-image: url(assets/26763553_2112.i301.033.F.m004.c9.UI\ and\ UX\ designers\ concepts\ isometric\ background.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 48%;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  margin: 30px;
+}
+
+.parte-do-inicio {
+  display: flex;
+  gap: 40px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.icone-titulo {
+  position: relative;
+  font-size: 40px;
+}
+
+.parte-de-cima:hover> :not(:hover) {
+  opacity: .4;
+  transform: scale(0.9);
+  transition: .35s;
+  color: black;
+}
+
+.parte-de-cima {
+  display: flex;
+  gap: 100px;
+}
+
+.parte-de-cima a {
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+  cursor: pointer;
+  transition: .35s;
+}
+
+.caixa-search input {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  background: rgb(250, 193, 36);
+}
+
+.icone-da-caixa {
+  position: relative;
+  transform: translateX(-190px);
+  font-size: 14.5px;
+  cursor: text;
+}
+
+.conteiner-de-baixo {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-left: 90px;
+  transform: translateY(85px);
+  gap: 100px;
+}
+
+.texto-do-meio {
+  font-size: 100px;
+}
+
+.botoes {
+  display: flex;
+  gap: 90px;
+  height: 65px;
+  text-align: center;
+}
+
+.btn-entrar {
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  transition: .30s;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.349);
+}
+
+.btn-entrar:hover {
+  background-color: rgb(187, 187, 187);
+  transform: scale(1.1);
+  transition: .30s;
+}
+
+.btn-registro {
+  background-color: rgba(255, 166, 0, 0.637);
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  transition: .30s;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.349);
+}
+
+.btn-registro:hover {
+  background-color: rgba(255, 166, 0, 0.89);
+  transform: scale(1.1);
+  transition: .30s;
+}
